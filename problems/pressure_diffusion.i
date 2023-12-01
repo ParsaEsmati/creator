@@ -23,10 +23,11 @@
 
 [Kernels]
   [diffusion]
-    type = ADDiffusion # //What's this type representing? 
-    variable = pressure
+    type = DarcyPressure # //Zero-gravity, divergence-free form of Darcy's law
+    variable = pressure # //Operate on the "pressure" variable from above
   []
 []
+
 
 [BCs]
   [inlet]

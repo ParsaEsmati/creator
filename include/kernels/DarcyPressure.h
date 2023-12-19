@@ -1,7 +1,9 @@
+// Following or pragma once 
 #ifndef DARCYPRESSURE_H
 #define DARCYPRESSURE_H
 
-// Including the "ADKernel" base class here so we can extend it
+// We are going to inherit from ADKernelGrad (optimized Kernels)
+// https://mooseframework.inl.gov/source/kernels/ADKernelGrad.html
 #include "ADKernelGrad.h"
 
 /**
